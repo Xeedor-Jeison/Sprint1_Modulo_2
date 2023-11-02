@@ -86,7 +86,7 @@ else {
   console.log("Lo sentimos no estas capacitado en estos momentos para conducir")
 }
 
-ejercicio 7
+//ejercicio 7
 
 let pase = prompt("Por favor ingrese que tipo de pase tiene: Vip o Normal").toLowerCase()
 let entrada = prompt("Tienes entrada? si o no").toLowerCase()
