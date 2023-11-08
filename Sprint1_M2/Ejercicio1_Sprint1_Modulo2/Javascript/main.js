@@ -93,7 +93,7 @@ let puedeSubir = edadRequerida >= 6 && alturaRequerida >=120
 
 console.log("Puede subir a la atracción: " + puedeSubir)
 
-let pase = prompt("Por favor ingrese que categoria de pase es VIP, NORMAL O LIMITADO: ")
+let pase = prompt("Por favor ingrese que categoria de pase es VIP, NORMAL O LIMITADO: ").toUpperCase();
 
 let saldo = prompt("Con cuanto saldo dispone en el momento para ingresar?")
 
